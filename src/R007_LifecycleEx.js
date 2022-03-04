@@ -13,6 +13,8 @@ class R007_LifecycleEx extends Component {
     }
 
     componentDidMount() {
+        //가장 마지막에 실행되는 함수. render함수가 html형식의 코드를 화면에 그려준 후 실행
+        //화면이 모두 그려진 후에 실행되어야 하는 이벤트 처리, 초기화 등에 활용되는 함수
         console.log('4. componentDidMount Call');
         console.log('5. tmp_state : '+this.state.tmp_state);
     }
