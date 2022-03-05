@@ -18,9 +18,12 @@ class R009_Es6 extends Component {
 ____다음 줄입니다`);
 
         var LongString = "ES6에 추가된 String 함수들입니다.";
-        console.log('startWith : '+LongString.startsWith("ES6에 추가"));
-        console.log('endWith : '+LongString.endsWith("함수들입니다."));
-        console.log('includes : '+LongString.includes("추가된 String"));
+        console.log('startWith : '+LongString.startsWith("ES6에 추가")); //true
+        //변수 앞에서부터 일치하는 문자열이 있는지 찾음
+        console.log('endWith : '+LongString.endsWith("함수들입니다.")); //ture
+        //변수 뒤에서부터 일치하는 문자열이 있는지 찾음
+        console.log('includes : '+LongString.includes("추가된 String")); //ture
+        //위치에 상관없이 변수에 특정 문자열이 포함되어 있는지 찾음
     }
 
     render() {
