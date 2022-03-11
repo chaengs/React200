@@ -25,20 +25,22 @@ class R013_ArrowFunction extends Component {
     Function2 = (num1, num2) => {
         let num3 = num1 + num2;
         console.log(num3+'. Arrow Function : '+ this.state.arrowFuc);
+        //여기서 this는 class R013_ArrowFunction의 컴포넌트
+        //this로 state 변수에 접근해 사용할 수 있다. 
     }
 
     Function3() {
-        var this_bind = this;
+        var this_bind = this; //콜백 함수 내부에서는 컴포넌트에 this로 접근 불가 -> 변수에 this를 백업하여 사용
         setTimeout(function() {
-            console.log(this_bind.state.num+'. ES6 Callback Function noBind : ');
-            console.log(this.state.arrowFuc);
+            console.log(this_bind.state.num+'. ES5 Callback Function noBind : ');
+            console.log(this.state.arrowFuc); // 콜백 함수 내부에서의 this는 window 객체 -> undefined에러 발생
         }, 100);
     }
 
     Function4() {
         setTimeout(function() {
             console.log('4. ES5 Callback Function Bind : '+this.state.arrowFuc);
-        }.bind(this), 100);
+        }.bind(this), 100); //콜백 함수 밖의 this를 bind 해주면 this를 컴포넌트로 사용 가능
     }
 
     Function5 = (num1, num2, num3) => {
@@ -46,6 +48,7 @@ class R013_ArrowFunction extends Component {
         setTimeout(() => {
             console.log(num4+'. Arrow Callback Function : '+this.state.arrowFuc);
         }, 100);
+        //화살표 함수에서는 this를 bind해주지 않아도 this를 컴포넌트로 사용해 state 변수에 접근 가능
     }
 
     render() {
