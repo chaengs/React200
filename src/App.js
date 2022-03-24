@@ -1,11 +1,11 @@
 import React from 'react';
-import ReactstrapForm from './R044_ReactstrapForm';
+import Jumbotron from './R046_ReactstrapJumbotron'
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   return (
     <div>
-      <ReactstrapForm/>
+      <Jumbotron/>
     </div>
   );
 }
