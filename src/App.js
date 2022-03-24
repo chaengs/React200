@@ -1,13 +1,15 @@
 import React from 'react';
-import Jumbotron from './R046_ReactstrapJumbotron'
+import ListGroup from './R047_ReactstrapListGroup';
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   return (
     <div>
-      <Jumbotron/>
+      <ListGroup/>
     </div>
   );
 }
 
 export default App;
+
+// ListGroup 패키지는 정돈된 스타일의 목록을 표시할 때 사용.
