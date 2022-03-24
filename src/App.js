@@ -1,11 +1,11 @@
 import React from 'react';
-import ReactstrapFade from './R043_ReactstrapFade';
+import ReactstrapForm from './R044_ReactstrapForm';
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   return (
     <div>
-      <ReactstrapFade/>
+      <ReactstrapForm/>
     </div>
   );
 }
