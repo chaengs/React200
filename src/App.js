@@ -1,15 +1,13 @@
 import React from 'react';
-import ReactstrapTab from './R055_ReactstrapTab';
-import 'bootstrap/dist/css/bootstrap.css'
+import Sweetalert2Basic from './R056_Sweetalert2Basic';
 
 function App() {
   return (
     <div>
-      <ReactstrapTab />
+      <Sweetalert2Basic />
     </div>
   );
 }
 
 export default App;
-
-// Tab 패키지는 사용자 동작에 따라 특정 영역에 다른 내용을 표시할 때 사용
+// sweetalert2 패키지는 다양한 디자인과 기능의 알림 창을 지원
