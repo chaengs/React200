@@ -1,14 +1,15 @@
 import React from 'react';
-import Progress from './R052_ReactstrapProgress';
+import ReactstrapSpinner from './R053_ReactstrapSpinner';
 import 'bootstrap/dist/css/bootstrap.css'
 
 function App() {
   return (
     <div>
-      <Progress />
+      <ReactstrapSpinner />
     </div>
   );
 }
 
 export default App;
-// Progress 패키지는 전체 작업에 대한 현재 진행 상태를 표현해준다.
+// Spinner 패키지는 어떤 작업이 진행되고 있음을 표시하는 움직이는 원 형태의 디자인을 제공
+// 색상, 너비, 높이 값을 지정할 수 있음
