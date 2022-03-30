@@ -1,10 +1,10 @@
 import React from 'react';
-import Sweetalert2Basic from './R056_Sweetalert2Basic';
+import Sweetalert2Position from './R057_Sweetalert2Position'
 
 function App() {
   return (
     <div>
-      <Sweetalert2Basic />
+      <Sweetalert2Position />
     </div>
   );
 }
