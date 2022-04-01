@@ -1,13 +1,14 @@
 import React from 'react';
-import Sweetalert2Position from './R057_Sweetalert2Position'
+import Sweetalert2Confirm from './R058_Sweetalert2Confirm'
 
 function App() {
   return (
     <div>
-      <Sweetalert2Position />
+      <Sweetalert2Confirm />
     </div>
   );
 }
 
 export default App;
-// sweetalert2 패키지는 다양한 디자인과 기능의 알림 창을 지원
+
+// 실제 삭제 작업을 실행하기 전에 다시 한번 확인하는 알림 창 표시
