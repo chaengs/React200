@@ -1,10 +1,10 @@
 import React from 'react';
-import CallbackFunc from './R063_CallbackFunc'
+import Promise from './R064_Promise'
 
 function App() {
   return (
     <div>
-      <CallbackFunc />
+      <Promise />
     </div>
   );
 }
