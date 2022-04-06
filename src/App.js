@@ -1,10 +1,10 @@
 import React from 'react';
-import Promise from './R065_Promise';
+import ReactonClick from './R066_onClick';
 
 function App() {
   return (
     <div>
-      <Promise />
+      <ReactonClick />
     </div>
   );
 }
