@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactMouseOver from './R069_onMouseOver'
+import ReactMouseOut from './R070_onMouseOut'
 
 function App() {
   return (
     <div>
-      <ReactMouseOver />
+      <ReactMouseOut />
     </div>
   );
 }
