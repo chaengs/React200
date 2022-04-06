@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactonSubmit from './R072_onSubmit'
+import ReactRef from './R073_ReactRef'
 
 function App() {
   return (
     <div>
-      <ReactonSubmit />
+      <ReactRef />
     </div>
   );
 }
