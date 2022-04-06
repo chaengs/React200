@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactonClick from './R066_onClick';
+import ReactChange from './R067_onChange';
 
 function App() {
   return (
     <div>
-      <ReactonClick />
+      <ReactChange />
     </div>
   );
 }
