@@ -1,10 +1,10 @@
 import React from 'react';
-import ReactOnKey from './R071_OnKey'
+import ReactonSubmit from './R072_onSubmit'
 
 function App() {
   return (
     <div>
-      <ReactOnKey />
+      <ReactonSubmit />
     </div>
   );
 }
